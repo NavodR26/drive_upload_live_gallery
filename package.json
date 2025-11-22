@@ -1,20 +1,23 @@
 {
-    "name": "mpbl-drive-slideshow",
-    "version": "1.0.0",
-    "type": "module",
-    "scripts": {
-      "start": "node drive-server.js",
-      "dev": "nodemon drive-server.js"
-    },
-    "dependencies": {
-      "cors": "^2.8.5",
-      "dotenv": "^16.0.0",
-      "express": "^4.18.2",
-      "googleapis": "^121.0.0",
-      "socket.io": "^4.7.0"
-    },
-    "devDependencies": {
-      "nodemon": "^2.0.22"
-    }
+  "name": "mpbl-drive-slideshow",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "start": "node drive-server.js",
+    "dev": "nodemon drive-server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "googleapis": "^121.0.0",
+    "socket.io": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
-  
+}
